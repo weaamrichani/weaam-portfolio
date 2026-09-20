@@ -26,8 +26,8 @@ const HeroExperience = () => {
         <HeroLights/>
         <Suspense fallback={<CanvasLoader />}>
           <group
-          scale={isMobile ? 0.7 : 1}
-          position={[0, -3, 0]}
+          scale={isMobile ? 0.5 : 1}
+          position={[-0.5, -2.5, 0]}
           rotation={[0, -Math.PI/4, 0]}
           >
             <PC isMobile={isMobile}/>
